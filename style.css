@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Raleway', 'sans-serif';
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pure-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flex {
+  display: flex;
+}
+
+.align-self {
+  align-self: flex-end;
+  margin-right: 30px;
+}
+
+.to-right {
+  margin-left: auto;
+  margin-top: 20px;
+}
+
+.price {
+  margin-left: 30%;
+}
+
+.margin-right10 {
+  margin-right: 10px;
+}
+
+.margin-right85 {
+  margin-right: 85px;
+}
+
+.card-width {
+  width: 180px;
+  margin: 15px;
+}
+
+.p-font {
+  font-size: 18px;
+}
+
+.collection-width {
+  width: 500px;
+}
+
+.red-font {
+  color: red;
+  margin-top: 0;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  .collection-width {
+    width: 300px;
+  }
+
+  .card-width {
+    width: 165px;
+    margin: 5px;
+  }
+  .price {
+    margin-left: 10%;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 38px;
+  }
+  h5 {
+    font-size: 17px;
+  }
+  .red-font {
+    font-size: 11px;
+  }
+
+  .phone-padding {
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+  }
+}
